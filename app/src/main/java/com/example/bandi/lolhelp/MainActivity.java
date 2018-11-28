@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, VerifyPhoneActivity.class);
                 intent.putExtra("phonenumber", phoneNumber);
                 startActivity(intent);
-
             }
         });
     }
