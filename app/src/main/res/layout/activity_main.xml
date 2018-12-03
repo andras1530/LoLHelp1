@@ -37,7 +37,7 @@
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="May I ask you phone number?"
+        android:text="Please enter your phone number"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:textColor="@color/colorPrimary" />
 
@@ -73,6 +73,19 @@
         android:layout_centerHorizontal="true"
         android:background="@color/colorPrimary"
         android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonContinue"
+        android:layout_alignEnd="@+id/buttonContinue"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
         android:textAllCaps="false"
         android:textColor="#ffffff" />
 
