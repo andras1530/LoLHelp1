@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".PostDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titleTv"
+            android:text="Title"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:background="@drawable/loading" />
+        <TextView
+            android:id="@+id/descriptionTv"
+            android:text="Ez lessz a Description"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <TextView
+            android:id="@+id/RunesTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Runes:"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/firstruneTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ez lesz a Firstrune"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstsp1Tv"
+            android:text="Ez lesz fsp1"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstsp2Tv"
+            android:text="Ez lesz fsp2"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstsp3Tv"
+            android:text="Ez lesz fsp3"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstsp4Tv"
+            android:text="Ez lesz fsp4"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/secondruneTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ez lesz a SecondRune"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ssp1Tv"
+            android:text="Ez lesz ssp1"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ssp2Tv"
+            android:text="Ez lesz ssp2"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

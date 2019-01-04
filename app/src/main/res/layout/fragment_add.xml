@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/edit_text_file_name"
+        android:text="Choose file" />
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_centerHorizontal="true"
+        android:hint="Champion Name"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/description_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_file_name"
+        android:layout_centerHorizontal="true"
+        android:hint="Role"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/firstrune_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="First rune"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/firstsp1_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstrune_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="First rune page sp1"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/firstsp2_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstsp1_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="First rune page sp2"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/firstsp3_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstsp2_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="First rune page sp3"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/firstsp4_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstsp3_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="First rune page sp4"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/secondrune_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstsp4_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="Second rune page"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/secondsp1_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondrune_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="Second rune page sp1"
+        android:textSize="11sp" />
+
+    <EditText
+        android:id="@+id/secondsp2_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondsp1_ed"
+        android:layout_centerHorizontal="true"
+        android:hint="Second rune page sp2"
+        android:textSize="11sp" />
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="148dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="40dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Upload" />
+
+    <TextView
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progress_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:gravity="center"
+        android:text="Show Uploads"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "894598421412",
+    "firebase_url": "https://lolhelp-c9c2a.firebaseio.com",
+    "project_id": "lolhelp-c9c2a",
+    "storage_bucket": "lolhelp-c9c2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894598421412:android:28c4d3b9af56967b",
+        "android_client_info": {
+          "package_name": "com.example.bandi.lolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894598421412-vec71u3q93e42moeb2l6c90tuakefkro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bandi.lolapp",
+            "certificate_hash": "036ffa323f2b8549f3afee0063f2493369a9b091"
+          }
+        },
+        {
+          "client_id": "894598421412-i51854okcosec8vpm46ah9f9vlvep2v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebXwITdWurPg8B7Ift-DadrjOwPvNefo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894598421412-i51854okcosec8vpm46ah9f9vlvep2v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894598421412:android:cc6d031d6230f49d",
+        "android_client_info": {
+          "package_name": "com.example.bandi.lolhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894598421412-t9fl7d9ut1783lsta9j0bp9k03i3h098.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bandi.lolhelp",
+            "certificate_hash": "036ffa323f2b8549f3afee0063f2493369a9b091"
+          }
+        },
+        {
+          "client_id": "894598421412-4mfpiq3nbp2psnqobflep3dason2ltq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bandi.lolhelp",
+            "certificate_hash": "33dfa187014c14d38aa4b5ba887c3db04a201ecf"
+          }
+        },
+        {
+          "client_id": "894598421412-rd0pack6d0e6cet6vl9q9ceqbq30pl94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bandi.lolhelp",
+            "certificate_hash": "48f941b59c9c3133078d93b1e4ea459bda7ccf4b"
+          }
+        },
+        {
+          "client_id": "894598421412-i51854okcosec8vpm46ah9f9vlvep2v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebXwITdWurPg8B7Ift-DadrjOwPvNefo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894598421412-i51854okcosec8vpm46ah9f9vlvep2v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894598421412:android:3e732376b6d5480a",
+        "android_client_info": {
+          "package_name": "com.example.huni.lol.Login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894598421412-secv6gofmhllf9ogjk6lj3mvvl32d75h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.huni.lol.Login",
+            "certificate_hash": "036ffa323f2b8549f3afee0063f2493369a9b091"
+          }
+        },
+        {
+          "client_id": "894598421412-i51854okcosec8vpm46ah9f9vlvep2v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebXwITdWurPg8B7Ift-DadrjOwPvNefo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894598421412-i51854okcosec8vpm46ah9f9vlvep2v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
